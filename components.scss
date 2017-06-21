@@ -1,0 +1,26 @@
+input[type="file"] {
+    display: block;
+    width: 100%;
+    height: auto;
+    @include include-element-margin($file-inputs-margin-top, $file-inputs-margin-bottom, $file-inputs-margin-left, $file-inputs-margin-right, $file-inputs-margin-for-screens);
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    @include border-radius(0);
+    @include appearance(none);
+    @include box-shadow(none);
+
+    &::-moz-focus-inner {
+        margin: 0;
+        outline: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    &[disabled] {
+        cursor: default;
+    }
+}
