@@ -1,15 +1,10 @@
-$file-inputs-margin-top: 0 !default;
-$file-inputs-margin-bottom: 0 !default;
-$file-inputs-margin-left: 0 !default;
-$file-inputs-margin-right: 0 !default;
-//Defined margins for each screens.
-$file-inputs-margin-for-screens: () !default;
-/*$file-inputs-margin-for-screens: (
-    s1: (
-        top: 20px, //Not required. Define only the margins values you want to change. Example - s2: ( top: 20px ) - change only top margin for screens greater than s2
-        bottom: 20px,
-        left: 20px,
-        right: 20px,
-    ),
-    ...
-) !default;*/
+$file-inputs-display: block !default;
+$file-inputs-width: 100% !default;
+$file-inputs-height: auto !default;
+
+//Magins
+$file-inputs-margin-top: $form-item-elements-margin-top !default;
+$file-inputs-margin-bottom: $form-item-elements-margin-bottom !default;
+$file-inputs-margin-left: $form-item-elements-margin-left !default;
+$file-inputs-margin-right: $form-item-elements-margin-right !default;
+$file-inputs-margin-for-screens: $form-item-elements-margin-for-screens !default;
